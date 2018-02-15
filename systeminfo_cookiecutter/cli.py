@@ -3,6 +3,8 @@
 """Console script for systeminfo_cookiecutter."""
 
 import click
+import platform
+import shutil
 
 
 @click.command()
