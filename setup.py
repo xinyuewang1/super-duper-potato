@@ -31,7 +31,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Xinyue Wang",
     author_email='xinyue.wang1@ucdconnect.ie',
-    url='https://github.com/xinyuewang1/systeminfo_cookiecutter',
+    url='https://github.com/xinyuewang1/super-duper-potato',
     packages=find_packages(include=['systeminfo_cookiecutter']),
     entry_points={
         'console_scripts': [
