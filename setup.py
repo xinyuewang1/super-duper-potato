@@ -35,7 +35,7 @@ setup(
     packages=find_packages(include=['systeminfo_cookiecutter']),
     entry_points={
         'console_scripts': [
-            'systeminfo_cookiecutter=systeminfo_cookiecutter.main:main',
+            'sysinfo=systeminfo_cookiecutter.__init__:main',
         ],
     },
     include_package_data=True,
