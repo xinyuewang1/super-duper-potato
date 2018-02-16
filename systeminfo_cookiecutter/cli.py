@@ -12,7 +12,8 @@ def main():
     #print(platform.platform())
     #total, used, free = shutil.disk_usage(__file__)
     #print('total, used, free: ', total, used, free)
-    return 'The platform is '+platform.platform() 
+    a = 'The platform is '+str(platform.platform())
+    return  a
 
 
 if __name__ == "__main__":
