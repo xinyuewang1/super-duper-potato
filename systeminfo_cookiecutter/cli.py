@@ -12,10 +12,10 @@ def main():
     #print(platform.platform())
     #total, used, free = shutil.disk_usage(__file__)
     #print('total, used, free: ', total, used, free)
-    a = 'The platform is '+str(platform.platform())
-    return  a
+    print( 'The platform is ',platform.platform())
+#    print(type(a))
+    return  
 
 
 if __name__ == "__main__":
-    import sys
     main()
