@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
 encoding//systeminfo_cookiecutter/__init__.py=utf-8
 encoding//systeminfo_cookiecutter/cli.py=utf-8
+encoding//systeminfo_cookiecutter/systeminfo_cookiecutter.py=utf-8
 encoding/setup.py=utf-8

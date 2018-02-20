@@ -26,8 +26,8 @@ test_requirements = [
 
 setup(
     name='systeminfo_cookiecutter',
-    version='0.2.0',
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    version='0.2.1',
+    description="",
     long_description=readme + '\n\n' + history,
     author="Xinyue Wang",
     author_email='xinyue.wang1@ucdconnect.ie',
@@ -35,7 +35,7 @@ setup(
     packages=find_packages(include=['systeminfo_cookiecutter']),
     entry_points={
         'console_scripts': [
-            'sysinfo=systeminfo_cookiecutter.__init__:main',
+            'sysinfo=systeminfo_cookiecutter.systeminfo_cookiecutter:get_platform',
         ],
     },
     include_package_data=True,
